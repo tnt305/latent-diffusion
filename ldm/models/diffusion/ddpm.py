@@ -15,7 +15,6 @@ from einops import rearrange, repeat
 from contextlib import contextmanager
 from functools import partial
 from tqdm import tqdm
-import CLIP
 from torchvision.utils import make_grid
 from pytorch_lightning.utilities.rank_zero import rank_zero_only
 
