@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from functools import partial
-import CLIP as clip
+from transformers import CLIPModel as clip
 from einops import rearrange, repeat
 import kornia
 
